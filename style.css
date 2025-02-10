@@ -1,14 +1,21 @@
 @font-face{
-  font-family: water;
-  src: url("https://cdn.glitch.global/97f7bbb3-2cd9-4b34-bbf2-d0a28c71f10b/Water%20Park.ttf?v=1738683075854");
+  font-family: Watermelon;
+  src: url("https://cdn.glitch.global/a2ec3e57-2c94-45b1-a310-d2390450637d/Watermelon.ttf?v=1739205903052");
 }
 
 body {
-  background-color: aliceblue;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,154,208,1) 95%);
+  background-repeat: no-repeat;
+  background-size: auto;
   text-align: center;
   color: navy;
   margin: auto;
-  font-family: water;
+  font-family: Watermelon;
+}
+
+html{
+  height:100%
 }
 
 h1{
@@ -17,10 +24,16 @@ h1{
 
 #myCanvas {
   background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
-  background-size: 600px 400px;
+  background-size: auto;
   border-radius: 300px;
-  border: 5px solid white;
+  border: 10px solid white;
 }
+
+.emote {
+  transform:scale(-1, 1);
+  width:fit-content;
+}
+
 
 
 
